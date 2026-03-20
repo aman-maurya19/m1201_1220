@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/awadh-dental-college-and-hospital-jamshedpur-78025",
-  "https://www.shiksha.com/college/ywca-vocational-training-institute-dwarka-delhi-63977",
-  "https://www.shiksha.com/college/dattakala-college-of-pharmacy-pune-88409",
-  "https://www.shiksha.com/college/bahraich-medical-college-65277",
-  "https://www.shiksha.com/college/institute-of-pharmacy-and-technology-cuttack-87913",
-  "https://www.shiksha.com/college/government-siddha-medical-college-tirunelveli-150811",
-  "https://www.shiksha.com/college/kalyan-singh-government-medical-college-bulandshahr-231162",
-  "https://www.shiksha.com/university/g-h-raisoni-university-saikheda-madhya-pradesh-other-53440",
-  "https://www.shiksha.com/college/doon-college-of-education-saharanpur-59673",
-  "https://www.shiksha.com/college/calcutta-homoeopathic-medical-college-and-hospital-kolkata-87041",
-  "https://www.shiksha.com/college/government-ayurved-college-jaipur-213537",
-  "https://www.shiksha.com/college/sophia-college-byculla-mumbai-48056",
-  "https://www.shiksha.com/college/rampurhat-government-medical-college-and-hospital-west-bengal-other-65321",
-  "https://www.shiksha.com/college/iq-city-institute-of-pharmaceutical-sciences-durgapur-237098",
-  "https://www.shiksha.com/college/directorate-of-correspondence-courses-and-distance-education-bangalore-university-jnana-bharathi-21714",
-  "https://www.shiksha.com/college/government-medical-college-firozabad-65295",
-  "https://www.shiksha.com/college/aster-medcity-kochi-105903",
-  "https://www.shiksha.com/college/college-of-physiotherapy-rohtak-195307",
-  "https://www.shiksha.com/college/ppg-institute-of-allied-health-sciences-coimbatore-225513",
-  "https://www.shiksha.com/college/gitam-school-of-science-visakhapatnam-55709",
+  "https://www.shiksha.com/college/government-pg-degree-college-rishikesh-138071",
+  "https://www.shiksha.com/college/bhagawan-buddha-homoeopathic-medical-college-and-hospital-mallathalli-bangalore-68141",
+  "https://www.shiksha.com/college/murari-lal-rasiwasia-ayurvedic-college-and-hospital-bhiwani-87175",
+  "https://www.shiksha.com/college/kovai-medical-center-research-educational-trust-coimbatore-28918",
+  "https://www.shiksha.com/college/bharat-ratna-late-shri-atal-bihari-vajpayee-memorial-govt-medical-college-rajnandgaon-chhattisgarh-other-62903",
+  "https://www.shiksha.com/college/gmers-medical-college-himmatnagar-gujarat-other-69973",
+  "https://www.shiksha.com/university/gondwana-university-maharashtra-other-58561",
+  "https://www.shiksha.com/college/advance-group-of-colleges-kanpur-59311",
+  "https://www.shiksha.com/college/s-n-d-college-of-pharmacy-nashik-88213",
+  "https://www.shiksha.com/university/central-university-of-andhra-pradesh-anantapur-154955",
+  "https://www.shiksha.com/college/sree-anjaneya-college-of-paramedical-sciences-kozhikode-194735",
+  "https://www.shiksha.com/college/p-d-hinduja-hospital-medical-research-center-mahim-mumbai-240536",
+  "https://www.shiksha.com/college/pandit-deendayal-upadhyay-dental-college-solapur-68031",
+  "https://www.shiksha.com/college/shree-saptshrungi-ayurved-mahavidyalay-nashik-68143",
+  "https://www.shiksha.com/college/al-azhar-college-of-pharmacy-idukki-88593",
+  "https://www.shiksha.com/college/kakatiya-college-of-physiotherapy-warangal-194367",
+  "https://www.shiksha.com/university/gujarat-university-of-transplantation-sciences-ahmedabad-65707",
+  "https://www.shiksha.com/college/santhigiri-siddha-medical-college-thiruvananthapuram-66123",
+  "https://www.shiksha.com/college/nagindas-khandwala-college-malad-west-mumbai-64527",
+  "https://www.shiksha.com/college/government-college-for-women-cluster-university-srinagar-64837",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 1201
+    c_count = 1441
 
     try:
         for base_url in BASE_URL:
