@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/government-pg-degree-college-rishikesh-138071",
-  "https://www.shiksha.com/college/bhagawan-buddha-homoeopathic-medical-college-and-hospital-mallathalli-bangalore-68141",
-  "https://www.shiksha.com/college/murari-lal-rasiwasia-ayurvedic-college-and-hospital-bhiwani-87175",
-  "https://www.shiksha.com/college/kovai-medical-center-research-educational-trust-coimbatore-28918",
-  "https://www.shiksha.com/college/bharat-ratna-late-shri-atal-bihari-vajpayee-memorial-govt-medical-college-rajnandgaon-chhattisgarh-other-62903",
-  "https://www.shiksha.com/college/gmers-medical-college-himmatnagar-gujarat-other-69973",
-  "https://www.shiksha.com/university/gondwana-university-maharashtra-other-58561",
-  "https://www.shiksha.com/college/advance-group-of-colleges-kanpur-59311",
-  "https://www.shiksha.com/college/s-n-d-college-of-pharmacy-nashik-88213",
-  "https://www.shiksha.com/university/central-university-of-andhra-pradesh-anantapur-154955",
-  "https://www.shiksha.com/college/sree-anjaneya-college-of-paramedical-sciences-kozhikode-194735",
-  "https://www.shiksha.com/college/p-d-hinduja-hospital-medical-research-center-mahim-mumbai-240536",
-  "https://www.shiksha.com/college/pandit-deendayal-upadhyay-dental-college-solapur-68031",
-  "https://www.shiksha.com/college/shree-saptshrungi-ayurved-mahavidyalay-nashik-68143",
-  "https://www.shiksha.com/college/al-azhar-college-of-pharmacy-idukki-88593",
-  "https://www.shiksha.com/college/kakatiya-college-of-physiotherapy-warangal-194367",
-  "https://www.shiksha.com/university/gujarat-university-of-transplantation-sciences-ahmedabad-65707",
-  "https://www.shiksha.com/college/santhigiri-siddha-medical-college-thiruvananthapuram-66123",
-  "https://www.shiksha.com/college/nagindas-khandwala-college-malad-west-mumbai-64527",
-  "https://www.shiksha.com/college/government-college-for-women-cluster-university-srinagar-64837",
+  "https://www.shiksha.com/college/assumption-college-kottayam-3778",
+  "https://www.shiksha.com/college/d-s-institute-of-paramedical-science-and-hospital-ghaziabad-52678",
+  "https://www.shiksha.com/college/dixit-college-of-higher-education-rampur-71477",
+  "https://www.shiksha.com/college/bhargava-homoeopathic-medical-college-gujarat-other-87517",
+  "https://www.shiksha.com/college/shree-mahalaxmiji-mahila-homeopathic-medical-college-vadodara-87555",
+  "https://www.shiksha.com/college/shri-kr-pandav-institute-of-pharmacy-nagpur-89193",
+  "https://www.shiksha.com/college/galaxy-group-of-educational-institutes-jammu-91925",
+  "https://www.shiksha.com/college/tinsukia-medical-college-and-hospital-assam-other-231168",
+  "https://www.shiksha.com/college/amet-university-powered-by-emversity-kanathur-chennai-238342",
+  "https://www.shiksha.com/college/sri-sukhmani-group-of-institutions-mohali-34307",
+  "https://www.shiksha.com/college/shree-dev-bhoomi-institute-of-education-science-and-technology-dehradun-42802",
+  "https://www.shiksha.com/college/sachchidananda-sinha-college-magadh-university-bihar-other-69077",
+  "https://www.shiksha.com/college/ishan-institute-of-pharmacy-greater-noida-64113",
+  "https://www.shiksha.com/college/stech-group-of-education-bhilwara-193085",
+  "https://www.shiksha.com/college/centre-for-distance-and-virtual-learning-university-of-hyderabad-abids-22060",
+  "https://www.shiksha.com/university/rajasthan-university-of-health-sciences-jaipur-52201",
+  "https://www.shiksha.com/college/indian-institute-of-ayurvedic-pharmaceutical-sciences-gujarat-ayurveda-university-jamnagar-58271",
+  "https://www.shiksha.com/college/polytechnic-in-food-science-and-home-economics-anand-agricultural-university-58391",
+  "https://www.shiksha.com/college/vv-pura-institute-of-pharmaceutical-sciences-bangalore-88131",
+  "https://www.shiksha.com/college/loknete-dr-j-d-pawar-college-of-pharmacy-nashik-88241",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 1441
+    c_count = 1641
 
     try:
         for base_url in BASE_URL:
