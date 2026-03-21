@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/assumption-college-kottayam-3778",
-  "https://www.shiksha.com/college/d-s-institute-of-paramedical-science-and-hospital-ghaziabad-52678",
-  "https://www.shiksha.com/college/dixit-college-of-higher-education-rampur-71477",
-  "https://www.shiksha.com/college/bhargava-homoeopathic-medical-college-gujarat-other-87517",
-  "https://www.shiksha.com/college/shree-mahalaxmiji-mahila-homeopathic-medical-college-vadodara-87555",
-  "https://www.shiksha.com/college/shri-kr-pandav-institute-of-pharmacy-nagpur-89193",
-  "https://www.shiksha.com/college/galaxy-group-of-educational-institutes-jammu-91925",
-  "https://www.shiksha.com/college/tinsukia-medical-college-and-hospital-assam-other-231168",
-  "https://www.shiksha.com/college/amet-university-powered-by-emversity-kanathur-chennai-238342",
-  "https://www.shiksha.com/college/sri-sukhmani-group-of-institutions-mohali-34307",
-  "https://www.shiksha.com/college/shree-dev-bhoomi-institute-of-education-science-and-technology-dehradun-42802",
-  "https://www.shiksha.com/college/sachchidananda-sinha-college-magadh-university-bihar-other-69077",
-  "https://www.shiksha.com/college/ishan-institute-of-pharmacy-greater-noida-64113",
-  "https://www.shiksha.com/college/stech-group-of-education-bhilwara-193085",
-  "https://www.shiksha.com/college/centre-for-distance-and-virtual-learning-university-of-hyderabad-abids-22060",
-  "https://www.shiksha.com/university/rajasthan-university-of-health-sciences-jaipur-52201",
-  "https://www.shiksha.com/college/indian-institute-of-ayurvedic-pharmaceutical-sciences-gujarat-ayurveda-university-jamnagar-58271",
-  "https://www.shiksha.com/college/polytechnic-in-food-science-and-home-economics-anand-agricultural-university-58391",
-  "https://www.shiksha.com/college/vv-pura-institute-of-pharmaceutical-sciences-bangalore-88131",
-  "https://www.shiksha.com/college/loknete-dr-j-d-pawar-college-of-pharmacy-nashik-88241",
+  "https://www.shiksha.com/college/government-medical-college-amravati-231198",
+  "https://www.shiksha.com/college/chitkara-business-school-chitkara-university-chandigarh-28446",
+  "https://www.shiksha.com/college/sharda-school-of-pharmacy-agra-59323",
+  "https://www.shiksha.com/college/mahathi-college-of-pharmacy-andhra-pradesh-other-60656",
+  "https://www.shiksha.com/college/sjm-college-of-pharmacy-chitradurga-67711",
+  "https://www.shiksha.com/college/dr-bhimrao-ambedkar-university-agra-chhalesar-campus-68371",
+  "https://www.shiksha.com/university/chanakya-university-bangalore-181399",
+  "https://www.shiksha.com/college/kashmir-college-of-pharmacy-allied-sciences-kcpas-anantnag-236484",
+  "https://www.shiksha.com/college/sakra-world-hospital-bangalore-105989",
+  "https://www.shiksha.com/university/sri-chandrasekharendra-saraswathi-viswa-mahavidyalaya-chennai-36961",
+  "https://www.shiksha.com/college/college-of-health-science-vidya-jyoti-educational-society-derabassi-52093",
+  "https://www.shiksha.com/college/government-p-g-college-for-women-panchkula-71877",
+  "https://www.shiksha.com/college/shri-babu-lal-mahavidhyalaya-mathura-76601",
+  "https://www.shiksha.com/college/gourishankar-institute-of-pharmaceutical-education-and-research-satara-87611",
+  "https://www.shiksha.com/college/aadhi-bhagawan-college-of-pharmacy-tiruvannamalai-88307",
+  "https://www.shiksha.com/college/maharashtra-institute-of-pharmacy-chandrapur-88321",
+  "https://www.shiksha.com/provider/the-knight-of-safety-academy-226791",
+  "https://www.shiksha.com/university/eternal-university-himachal-pradesh-other-38025",
+  "https://www.shiksha.com/university/kadi-sarva-vishwavidyalaya-gandhinagar-38065",
+  "https://www.shiksha.com/college/babu-sunder-singh-institute-of-technology-and-management-lucknow-53866",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 1641
+    c_count = 1721
 
     try:
         for base_url in BASE_URL:
