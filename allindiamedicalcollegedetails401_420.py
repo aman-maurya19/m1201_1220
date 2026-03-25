@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/government-medical-college-amravati-231198",
-  "https://www.shiksha.com/college/chitkara-business-school-chitkara-university-chandigarh-28446",
-  "https://www.shiksha.com/college/sharda-school-of-pharmacy-agra-59323",
-  "https://www.shiksha.com/college/mahathi-college-of-pharmacy-andhra-pradesh-other-60656",
-  "https://www.shiksha.com/college/sjm-college-of-pharmacy-chitradurga-67711",
-  "https://www.shiksha.com/college/dr-bhimrao-ambedkar-university-agra-chhalesar-campus-68371",
-  "https://www.shiksha.com/university/chanakya-university-bangalore-181399",
-  "https://www.shiksha.com/college/kashmir-college-of-pharmacy-allied-sciences-kcpas-anantnag-236484",
-  "https://www.shiksha.com/college/sakra-world-hospital-bangalore-105989",
-  "https://www.shiksha.com/university/sri-chandrasekharendra-saraswathi-viswa-mahavidyalaya-chennai-36961",
-  "https://www.shiksha.com/college/college-of-health-science-vidya-jyoti-educational-society-derabassi-52093",
-  "https://www.shiksha.com/college/government-p-g-college-for-women-panchkula-71877",
-  "https://www.shiksha.com/college/shri-babu-lal-mahavidhyalaya-mathura-76601",
-  "https://www.shiksha.com/college/gourishankar-institute-of-pharmaceutical-education-and-research-satara-87611",
-  "https://www.shiksha.com/college/aadhi-bhagawan-college-of-pharmacy-tiruvannamalai-88307",
-  "https://www.shiksha.com/college/maharashtra-institute-of-pharmacy-chandrapur-88321",
-  "https://www.shiksha.com/provider/the-knight-of-safety-academy-226791",
-  "https://www.shiksha.com/university/eternal-university-himachal-pradesh-other-38025",
-  "https://www.shiksha.com/university/kadi-sarva-vishwavidyalaya-gandhinagar-38065",
-  "https://www.shiksha.com/college/babu-sunder-singh-institute-of-technology-and-management-lucknow-53866",
+  "https://www.shiksha.com/college/pragati-college-of-pharmacy-kashipur-89119",
+  "https://www.shiksha.com/college/ramananda-college-bankura-144539",
+  "https://www.shiksha.com/college/r-c-patel-insitute-of-pharmacy-dhule-147799",
+  "https://www.shiksha.com/college/raja-s-p-singh-degree-college-agra-148767",
+  "https://www.shiksha.com/college/college-of-pharmacy-dehradun-149177",
+  "https://www.shiksha.com/college/government-g-d-c-college-rewa-196527",
+  "https://www.shiksha.com/college/manoharbhai-patel-institute-of-pharmacy-gondia-198173",
+  "https://www.shiksha.com/college/sunshine-institute-of-paramedical-sciences-bidar-199519",
+  "https://www.shiksha.com/college/icri-suresh-gyan-vihar-university-jaipur-212177",
+  "https://www.shiksha.com/college/government-medical-college-narayanpet-telangana-other-231152",
+  "https://www.shiksha.com/college/s-s-agrawal-institute-of-pharmacy-ahmedabad-231538",
+  "https://www.shiksha.com/college/minakhan-pharmaceutical-college-and-research-centre-west-bengal-other-237310",
+  "https://www.shiksha.com/university/atal-bihari-vajpayee-vishwavidyalaya-bilaspur-cg-58055",
+  "https://www.shiksha.com/college/sarada-devi-institute-of-medical-science-cuttack-200625",
+  "https://www.shiksha.com/college/sanjeevini-institute-of-paramedical-sciences-davangere-202045",
+  "https://www.shiksha.com/college/manipal-hospital-whitefield-bangalore-240818",
+  "https://www.shiksha.com/college/sku-college-of-pharmceutical-science-anantapur-61021",
+  "https://www.shiksha.com/college/kazian-school-of-management-miraroad-east-thane-63361",
+  "https://www.shiksha.com/college/rattan-group-of-institutions-mohali-64997",
+  "https://www.shiksha.com/college/sram-college-of-pharmacy-firozabad-65491",
 ]
 
 
@@ -9251,7 +9251,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 1721
+    c_count = 2901
 
     try:
         for base_url in BASE_URL:
